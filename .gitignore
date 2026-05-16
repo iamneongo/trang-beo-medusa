@@ -1,0 +1,17 @@
+node_modules
+.turbo
+npm-debug.log*
+backend-dev.log
+
+apps/backend/node_modules
+apps/backend/.env
+apps/backend/.medusa
+apps/backend/public/admin
+apps/backend/uploads
+apps/backend/.cache
+apps/backend/coverage
+apps/backend/medusa-run.log
+
+apps/storefront/node_modules
+
+.DS_Store
