@@ -7,7 +7,7 @@ services:
     rootDir: apps/backend
     autoDeployTrigger: commit
     healthCheckPath: /health
-    buildCommand: npm install --legacy-peer-deps && npm run build:render
+    buildCommand: NPM_CONFIG_PRODUCTION=false npm install --legacy-peer-deps && npm run build:render
     startCommand: npm run start:render
     envVars:
       - key: NODE_ENV
