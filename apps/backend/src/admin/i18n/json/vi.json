@@ -1,0 +1,16 @@
+{
+  "app": {
+    "menus": {
+      "store": {
+        "label": "Trang béo",
+        "storeSettings": "Cài đặt Trang béo"
+      }
+    },
+    "nav": {
+      "main": {
+        "store": "Trang béo",
+        "storeSettings": "Cài đặt Trang béo"
+      }
+    }
+  }
+}
