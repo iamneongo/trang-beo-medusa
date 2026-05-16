@@ -48,7 +48,11 @@ const pickLatest = <T extends QueryRecord>(items: T[]) =>
       new Date(left.created_at ?? 0).getTime()
   )[0]
 
-export default async function syncTrangBeoCatalog(container: MedusaContainer) {
+export default async function syncTrangBeoCatalog({
+  container,
+}: {
+  container: MedusaContainer
+}) {
   const logger = container.resolve(ContainerRegistrationKeys.LOGGER)
   const query = container.resolve(ContainerRegistrationKeys.QUERY)
 
