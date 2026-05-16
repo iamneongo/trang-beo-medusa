@@ -1,0 +1,50 @@
+{
+  "app": {
+    "menus": {
+      "store": {
+        "label": "Trang beo",
+        "storeSettings": "Trang beo settings"
+      }
+    },
+    "nav": {
+      "main": {
+        "store": "Trang beo",
+        "storeSettings": "Trang beo settings"
+      }
+    }
+  },
+  "login": {
+    "title": "Welcome to Trang beo"
+  },
+  "invite": {
+    "title": "Welcome to Trang beo",
+    "successHint": "Get started with Trang beo Admin right away.",
+    "successAction": "Open Trang beo Admin"
+  },
+  "workflowExecutions": {
+    "subtitle": "View and keep track of workflow executions in your Trang beo application."
+  },
+  "notifications": {
+    "accessibility": {
+      "description": "Notifications about Trang beo activities will be listed here."
+    }
+  },
+  "apiKeyManagement": {
+    "create": {
+      "createSecretHint": "Create a new secret API key to access the Trang beo API as an authenticated admin user."
+    }
+  },
+  "profile": {
+    "edit": {
+      "usageInsightsHint": "Share usage insights and help us improve Trang beo. You can read more about what we collect and how we use it in our <0>documentation</0>."
+    }
+  },
+  "orders": {
+    "refund": {
+      "systemPaymentDesc": "One or more of your payments is a system payment. Be aware that captures and refunds are not handled by Trang beo for such payments."
+    }
+  },
+  "translations": {
+    "subtitle": "Manage translations of your data in Trang beo"
+  }
+}

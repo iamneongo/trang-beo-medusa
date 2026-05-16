@@ -12,5 +12,39 @@
         "storeSettings": "Cài đặt Trang béo"
       }
     }
+  },
+  "login": {
+    "title": "Chào mừng đến với Trang béo"
+  },
+  "invite": {
+    "title": "Chào mừng đến với Trang béo",
+    "successHint": "Bắt đầu ngay với trang quản trị Trang béo.",
+    "successAction": "Mở trang quản trị Trang béo"
+  },
+  "workflowExecutions": {
+    "subtitle": "Xem và theo dõi các lần thực thi quy trình trong ứng dụng Trang béo của bạn."
+  },
+  "notifications": {
+    "accessibility": {
+      "description": "Thông báo về các hoạt động của Trang béo sẽ được liệt kê ở đây."
+    }
+  },
+  "apiKeyManagement": {
+    "create": {
+      "createSecretHint": "Tạo một khóa API bí mật mới để truy cập API Trang béo với tư cách người dùng quản trị đã xác thực."
+    }
+  },
+  "profile": {
+    "edit": {
+      "usageInsightsHint": "Chia sẻ thông tin sử dụng để giúp chúng tôi cải thiện Trang béo. Bạn có thể đọc thêm về những gì chúng tôi thu thập và cách sử dụng trong <0>tài liệu</0> của chúng tôi."
+    }
+  },
+  "orders": {
+    "refund": {
+      "systemPaymentDesc": "Một hoặc nhiều khoản thanh toán của bạn là thanh toán hệ thống. Lưu ý rằng việc ghi nhận và hoàn tiền không được Trang béo xử lý cho các khoản thanh toán này."
+    }
+  },
+  "translations": {
+    "subtitle": "Quản lý bản dịch dữ liệu trong Trang béo"
   }
 }
